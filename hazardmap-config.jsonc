@@ -1,6 +1,6 @@
 {
   // 都道府県名を設定してください。
-  "prefecture": "東京都",
+  "prefecture": "沖縄県",
   
   // 対象が政令指定都市の区の場合は、政令指定都市の市名を設定してください。
   // たとえば、京都市の場合は null を "京都市" に置き換えます。
@@ -10,7 +10,7 @@
   // 市区町村名を設定してください。
   // ただし、政令指定都市をここに設定することはできません。
   // また、郡は不要です。"比企郡小川町" ではなく "小川町" としてください。
-  "shikuchoson": "八王子市",
+  "shikuchoson": "名護市",
   
   // ハザードマップポータルサイトで提供されているデータの一覧です。
   // 対象の市区町村に応じて、不要な要素（"{}"で囲まれる単位）を削除してください。
@@ -82,10 +82,10 @@
       "url": "https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo/{z}/{x}/{y}.png",
       "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
     },
-    {
+   /* {
       "name": "雪崩危険箇所",
       "url": "https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo/{z}/{x}/{y}.png",
       "attribution": "<a href=\"https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html\">ハザードマップポータルサイト</a>"
-    }
+    }*/
   ]
 }
